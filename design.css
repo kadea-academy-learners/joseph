@@ -1,0 +1,335 @@
+*
+{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+.cover
+{
+    height:120vh;
+    width:100%;
+    background-image:url(img/image-header.jpg) ; /* l'image d'arriere plan de mon header*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cover1
+{
+    display:flex;
+    justify-content: space-between;  /* ma photo sunnyside et mon menu de navigation */
+    align-items:center;
+    padding:20px 10px ;
+}
+.cover1 img
+{
+    margin-left:20px;   /* ma photo logo sunnyside decaler un peu par rapport a la marge gauche*/
+}
+.cover1 nav a 
+{
+    margin-left:20px;
+    text-decoration: none;   /*menu de navigation dans mon header*/
+    font-size:18px;
+    color: white;
+}
+.cover1 nav a:last-child
+{
+    background-color:white;
+    padding:15px 15px 15px 15px; /*le dernier lien contact qui est specifique*/
+    border-radius:999px;
+    color: black;
+}
+.liens
+{
+    display: flex;
+    justify-content:center; /* la zone de ma fleche et mon titre we are creatives*/
+    align-items:center;
+    flex-direction:column;
+
+    h1
+{
+    text-transform: uppercase;
+    color: white;               /* mon titre a header we are creatives*/
+    font-size: 3em;
+    margin-top:15vh;
+    
+}
+
+}
+ 
+.liens img 
+{
+    margin-top:20vh;   /* fleche en bas de mon header*/
+}
+.brand1
+{
+    height: 80vh;
+    width:100%;    /*premiere section apres mon header*/
+    display:flex;
+}
+.brandleft
+{
+    height: 100%;
+    width:50%;
+    display: flex;               /* premier div a gauche de ma premiere section avec du texte*/
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap:40px;
+
+}
+.learn 
+{
+    margin-top:10px;
+    margin-left:5px;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 6px; /* controle l'epaisseur de ligne text decoration*/
+    text-align: left;
+    border-bottom: 5px;
+    font-style: bold;
+}
+.learn1
+{
+    margin-top:10px;
+    margin-left:5px;
+    text-decoration-color:red;
+    text-decoration-thickness: 6px; /* controle l'epaisseur de ligne text decoration*/
+    text-align: left;
+    border-radius: 3px;
+}
+.brandright
+{
+    height:100%;
+    width:50%;
+    background-color: skyblue;
+    background-image:url(img/image-transform.jpg);      /*image div de ma premiere section a droite*/
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.brand2
+{
+    height: 80vh;
+    width:100%;            /*deuxieme section */
+    display:flex;
+}
+.brandleft1
+{
+    height:100%;
+    width:50%;
+    background-image:url(img/image-stand-out.jpg); /*image de la div du deuxieme section a gauche*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.brandright1
+{
+    height: 100%;
+    width:50%;
+    display: flex;
+    flex-direction: column;      /*zone du texte du div de la deuxieme section*/
+    align-items: center;
+    justify-content:center;
+    gap:40px;
+
+}
+.brand3
+{
+    display: flex;     /* ma troisieme section*/
+    height: 100vh;
+    width:100%;
+}
+.left 
+{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    background-image:url(img/image-graphic-design.jpg);  /* image de l'arriere plan du div de lla gauche de ma troisieme section */
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:50%;
+    height:100vh;
+    gap:35px;
+}
+.left h1 
+{
+    padding-top:60vh;       /* titre de la div gauche de ma troisieme section*/
+    color: rgb(36,85,74);
+}
+.left p
+{
+    color: rgb(36,85,74);  /* paragraphe de la div gauche de ma troisieme section*/
+}
+.right 
+{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    gap:35px;
+    background-image:url(img/image-photography.jpg);     /* image de l'arriere plan du div de la droite de ma troisieme section */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:50%;
+    height:100vh;
+}
+.right h1 
+{
+    padding-top:60vh;         /* titre de la div droite de ma troisieme section*/
+    color: rgb(36,85,74);
+}
+.right p
+{
+    color: rgb(36,85,74);   /* paragraphe de la div droite de ma troisieme section*/
+}
+.terminal
+{
+  margin:0;                /*zone des trois clients*/
+  height:100vh;
+  width:100%;
+  background-color:rgb(254,251,247)
+
+}
+.terminal p 
+ {
+    color:rgb(125,129,149); 
+ }
+
+.client
+{
+    height:100vh;
+    width:100%;
+    display: flex;            /* div containeur de trois clients*/
+    justify-content:space-around;      
+    align-items: center;
+    background-color:rgb(254,251,247)
+}
+.premier 
+{
+    height:100vh;
+    width:30%;
+    display: flex;
+    flex-direction: column;        /*premier client a gauche*/
+    align-items:center;
+    gap:40px;
+    font-family:sans-serif;
+    background-color:rgb(254,251,247)
+
+}
+.image
+{
+    
+    border-radius:999px;             /*image du premier client */
+    margin-top:40px;
+}
+.deuxieme
+{
+    height:100vh;
+    width:30%;
+    display: flex;                   /* deuxieme client au milieu*/
+    flex-direction: column;
+    align-items:center;
+    gap:40px;
+    font-family:sans-serif;
+    background-color:rgb(254,251,247)
+}
+.troisieme
+{
+    height:100vh;
+    width:30%;
+    display: flex;              /*troisieme client a droite*/
+    flex-direction: column;
+    align-items:center;
+    gap:40px;
+    font-family:sans-serif;
+    background-color:rgb(254,251,247)
+}
+.titre
+{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;       /*titre de la section des clients*/
+    padding-top:50px;
+    color: rgb(125,129,149);
+}
+.mesphotos
+{
+    display: flex;
+    justify-content: center;        /*quatrieme section des 4photos flex*/
+    align-items: center;
+    height:100vh;
+    width:100%;
+    background-color: red;
+}
+.photo1
+{
+    background-image:url(img/image-gallery-milkbottles.jpg); /*premiere de la section4*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:25%;
+    height:100vh;
+}
+.photo2
+{
+    background-image:url(img/image-gallery-orange.jpg);  /*deuxieme de la section4*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:25%;
+    height:100vh;
+}
+.photo3
+{
+    background-image:url(img/image-gallery-cone.jpg);  /*troisieme de la section4 */
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:25%;
+    height:100vh;
+}
+.photo4
+{
+    background-image:url(img/image-gallery-sugarcubes.jpg);  /*quatrieme de la section4  */
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:25%;
+    height:100vh;
+}
+.pied
+{
+    height:65vh;
+    width:100%;
+    background-color: rgb(144,212,196);    /*mon footer */
+    text-align: center;
+    padding-top:60px;
+}
+
+.liensfoot
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;    /*mes liens du footer*/
+    gap: 30px;  
+}
+.liensfoot a 
+{
+    text-decoration: none;
+    color: rgb(69,140,126);     /*mes trois liens du footer */
+    padding-top:40px;
+}
+.icon
+{
+    display: flex;
+    align-items: center;        /* mes icones des reseaux sociaux */
+    justify-content: center;
+    gap: 30px;  
+}
+.logo1
+{
+    padding-top:50px;   /*positionnement des mes icones reseaux sociaux */
+}
+.sunny 
+{
+    filter: invert(100%);
+}
+.pied p 
+{
+    padding-top:70px;  /*paragraphe du footer */
+}
